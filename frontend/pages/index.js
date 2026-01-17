@@ -109,7 +109,7 @@ export default function Home() {
     setIdea('')
 
     try {
-      const { data } = await axios.post('http://localhost:5000/api/analyze', { idea })
+      const { data } = await axios.post('/api/analyze', { idea })
       updatedSessions[currentSession] = [...updatedSessions[currentSession], { role: 'assistant', content: data }]
       setSessions([...updatedSessions])
     } catch (error) {
