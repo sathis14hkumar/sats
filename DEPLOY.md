@@ -10,7 +10,7 @@
 ## Environment Variables:
 Add in Vercel dashboard:
 ```
-GEMINI_API_KEY=AIzaSyDKp2s3rwLuKLxscucOuyDfcYdMnlFj8bM
+GEMINI_API_KEY=
 ```
 
 ## Deploy Steps:
